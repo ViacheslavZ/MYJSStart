@@ -1,0 +1,11 @@
+$ git init // создать пустой репозиторий
+
+$ echo >> README.md
+
+$ git config --local user.name "Ivan"
+
+$ git config --local user.email myemail@gmail.com
+
+$ git add -A // проиндексировать все файлы 
+
+$ git status // посмотреть статус проиндекированных файлов (список)
