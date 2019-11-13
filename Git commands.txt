@@ -1,11 +1,55 @@
+Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons
 $ git init // создать пустой репозиторий
+Initialized empty Git repository in C:/Users/Slava/Desktop/JS/js_lessons/.git/
 
+Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
 $ echo >> README.md
 
-$ git config --local user.name "Ivan"
+Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
+$ git config --local user.name "Viacheslav"
 
-$ git config --local user.email myemail@gmail.com
+Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
+$ git config --local user.email freefly1911@gmail.com
 
+Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
 $ git add -A // проиндексировать все файлы 
+warning: LF will be replaced by CRLF in 1 variabels & other data/.jshintrc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 1stGitPoject/.jshintrc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
 
+Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
 $ git status // посмотреть статус проиндекированных файлов (список)
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   1 variabels & other data/.jshintrc
+        new file:   1 variabels & other data/index.html
+        new file:   1 variabels & other data/script.js
+        new file:   1stGitPoject/.jshintrc
+        new file:   Git commands.txt
+        new file:   Git config.PNG
+        new file:   README.md
+        new file:   jsconfig.json
+
+
+Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
+$ git commit -a -m "Это наш первый коммит"
+[master (root-commit) 805486f] Это наш первый коммит
+ 8 files changed, 89 insertions(+)
+ create mode 100644 1 variabels & other data/.jshintrc
+ create mode 100644 1 variabels & other data/index.html
+ create mode 100644 1 variabels & other data/script.js
+ create mode 100644 1stGitPoject/.jshintrc
+ create mode 100644 Git commands.txt
+ create mode 100644 Git config.PNG
+ create mode 100644 README.md
+ create mode 100644 jsconfig.json
+
+Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
+$
