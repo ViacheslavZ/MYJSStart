@@ -1,17 +1,12 @@
-Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons
 $ git init // создать пустой репозиторий
 Initialized empty Git repository in C:/Users/Slava/Desktop/JS/js_lessons/.git/
 
-Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
 $ echo >> README.md
 
-Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
 $ git config --local user.name "Viacheslav"
 
-Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
 $ git config --local user.email freefly1911@gmail.com
 
-Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
 $ git add -A // проиндексировать все файлы 
 warning: LF will be replaced by CRLF in 1 variabels & other data/.jshintrc.
 The file will have its original line endings in your working directory
@@ -20,7 +15,6 @@ The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in README.md.
 The file will have its original line endings in your working directory
 
-Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
 $ git status // посмотреть статус проиндекированных файлов (список)
 On branch master
 
@@ -37,8 +31,6 @@ Changes to be committed:
         new file:   README.md
         new file:   jsconfig.json
 
-
-Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
 $ git commit -a -m "Это наш первый коммит"
 [master (root-commit) 805486f] Это наш первый коммит
  8 files changed, 89 insertions(+)
@@ -51,5 +43,42 @@ $ git commit -a -m "Это наш первый коммит"
  create mode 100644 README.md
  create mode 100644 jsconfig.json
 
-Slava@DESKTOP-TKES0P2 MINGW64 ~/Desktop/JS/js_lessons (master)
-$
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   1 variabels & other data/index.html
+        modified:   Git commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+$ git add *.html
+
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   1 variabels & other data/index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Git commands.txt
+
+$ git add *.txt
+
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   1 variabels & other data/index.html
+        modified:   Git commands.txt
+
+$ git commit  -a -m "Это наш второй коммит"
+[master 6061a54] Это наш второй коммит
+ 2 files changed, 48 insertions(+), 4 deletions(-)
+
+$ git log
+$ git log --help
+$ clear // clear console
